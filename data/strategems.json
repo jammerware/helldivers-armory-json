@@ -1,48 +1,589 @@
 [
-    {
-        "model": "APW-1",
-        "name": "Anti-Materiel Rifle",
-        "class": "support weapon",
-        "armorPenLevel": "heavy",
-        "group": "supply",
-        "input": "dlrud"
-    },
-    {
-        "model": "EAT-17",
-        "name": "Expendable Anti-Tank",
-        "class": "support weapon",
-        "group": "supply",
-        "armorPenLevel": "antitank",
-        "input": "ddlur"
-    },
-    {
-        "model": "GR-8",
-        "name": "Recoilless Rifle",
-        "class": "support weapon",
-        "group": "supply",
-        "armorPenLevel": "antitank",
-        "input": "dlrrl",
-        "tags": [
-            "backpack"
-        ]
-    },
-    {
-        "model": "M-105",
-        "name": "Stalwart",
-        "armorPenLevel": "light",
-        "class": "support weapon",
-        "group": "supply",
-        "input": "dlduul",
-        "tags": [
-            "mobile reload"
-        ]
-    },
-    {
-        "model": "MG-43",
-        "name": "Machine Gun",
-        "armorPenLevel": "medium",
-        "class": "support weapon",
-        "group": "supply",
-        "input": "dldur"
-    },
+  {
+    "model": "",
+    "name": "Eagle 110mm Rocket Pods",
+    "class": "eagle",
+    "group": "offensive",
+    "armorPenLevel": "antitank",
+    "input": "urul",
+    "tags": ["autotarget", "explosive"]
+  },
+  {
+    "model": "",
+    "name": "Eagle 500kg Bomb",
+    "class": "eagle",
+    "group": "offensive",
+    "armorPenLevel": "antitank",
+    "input": "urddd",
+    "tags": ["demo", "explosive"]
+  },
+  {
+    "model": "",
+    "name": "Eagle Airstrike",
+    "class": "eagle",
+    "group": "offensive",
+    "armorPenLevel": "antitank",
+    "input": "urdr",
+    "tags": ["demo", "explosive"]
+  },
+  {
+    "model": "",
+    "name": "Eagle Cluster Bomb",
+    "class": "eagle",
+    "group": "offensive",
+    "armorPenLevel": "medium",
+    "input": "urddr",
+    "tags": ["explosive"]
+  },
+  {
+    "model": "",
+    "name": "Eagle Napalm Airstrike",
+    "class": "eagle",
+    "group": "offensive",
+    "armorPenLevel": "antitank",
+    "input": "urdu",
+    "tags": ["demo", "explosive", "incendiary"]
+  },
+  {
+    "model": "",
+    "name": "Eagle Smoke Strike",
+    "class": "eagle",
+    "group": "offensive",
+    "armorPenLevel": "antitank",
+    "input": "urud",
+    "tags": ["explosive", "smoke"]
+  },
+  {
+    "model": "",
+    "name": "Eagle Strafing Run",
+    "class": "eagle",
+    "group": "offensive",
+    "armorPenLevel": "heavy",
+    "input": "urr",
+    "tags": ["demo"]
+  },
+  {
+    "model": "",
+    "name": "Orbital 120mm HE Barrage",
+    "class": "orbital",
+    "group": "offensive",
+    "armorPenLevel": "antitank",
+    "input": "lldlrd",
+    "tags": ["demo", "explosive"]
+  },
+  {
+    "model": "",
+    "name": "Orbital 380mm HE Barrage",
+    "class": "orbital",
+    "group": "offensive",
+    "armorPenLevel": "antitank",
+    "input": "rduuldd",
+    "tags": ["demo", "explosive"]
+  },
+  {
+    "model": "",
+    "name": "Orbital Airburst Strike",
+    "class": "orbital",
+    "group": "offensive",
+    "armorPenLevel": "medium",
+    "input": "rrr",
+    "tags": ["demo", "explosive"]
+  },
+  {
+    "model": "",
+    "name": "Orbital EMS Strike",
+    "class": "orbital",
+    "group": "offensive",
+    "armorPenLevel": "heavy",
+    "input": "rrld",
+    "tags": ["demo", "explosive", "stun"]
+  },
+  {
+    "model": "",
+    "name": "Orbital Gas Strike",
+    "class": "orbital",
+    "group": "offensive",
+    "armorPenLevel": "antitank",
+    "input": "rrdr",
+    "tags": ["demo", "explosive", "gas"]
+  },
+  {
+    "model": "",
+    "name": "Orbital Gatling Barrage",
+    "class": "orbital",
+    "group": "offensive",
+    "armorPenLevel": "antitank",
+    "input": "rdluu",
+    "tags": ["demo"]
+  },
+  {
+    "model": "",
+    "name": "Orbital Laser",
+    "class": "orbital",
+    "group": "offensive",
+    "armorPenLevel": "antitank",
+    "input": "rdurd",
+    "tags": ["demo", "incendiary", "laser"]
+  },
+  {
+    "model": "",
+    "name": "Orbital Napalm Barrage",
+    "class": "orbital",
+    "group": "offensive",
+    "armorPenLevel": "antitank",
+    "input": "rrdlru",
+    "tags": ["demo", "explosive", "incendiary"]
+  },
+  {
+    "model": "",
+    "name": "Orbital Precision Strike",
+    "class": "orbital",
+    "group": "offensive",
+    "armorPenLevel": "antitank",
+    "input": "rru",
+    "tags": ["demo", "explosive"]
+  },
+  {
+    "model": "",
+    "name": "Orbital Railcannon Strike",
+    "class": "orbital",
+    "group": "offensive",
+    "armorPenLevel": "antitank",
+    "input": "ruddr",
+    "tags": ["autotarget", "demo", "explosive"]
+  },
+  {
+    "model": "",
+    "name": "Orbital Smoke Strike",
+    "class": "orbital",
+    "group": "offensive",
+    "armorPenLevel": "none",
+    "input": "rrdu",
+    "tags": ["explosive", "smoke"]
+  },
+  {
+    "model": "",
+    "name": "Orbital Walking Barrage",
+    "class": "orbital",
+    "group": "offensive",
+    "armorPenLevel": "antitank",
+    "input": "rdrdrd",
+    "tags": ["demo", "explosive"]
+  },
+  {
+    "model": "A/AC-8",
+    "name": "Autocannon Sentry",
+    "class": "deployable",
+    "group": "defensive",
+    "armorPenLevel": "antitank",
+    "input": "durulu"
+  },
+  {
+    "model": "A/ARC-3",
+    "name": "Tesla Tower",
+    "class": "deployable",
+    "group": "defensive",
+    "armorPenLevel": "heavy",
+    "input": "dululr",
+    "tags": ["arc"]
+  },
+  {
+    "model": "A/FLAM-40",
+    "name": "Flame Sentry",
+    "class": "deployable",
+    "group": "defensive",
+    "armorPenLevel": "heavy",
+    "input": "durduu",
+    "tags": ["incendiary"]
+  },
+  {
+    "model": "A/G-16 Gatling Sentry",
+    "name": "Gatling Sentry",
+    "class": "deployable",
+    "group": "defensive",
+    "armorPenLevel": "medium",
+    "input": "durl"
+  },
+  {
+    "model": "A/M-12",
+    "name": "Mortar Sentry",
+    "class": "deployable",
+    "group": "defensive",
+    "armorPenLevel": "medium",
+    "input": "durrd",
+    "tags": ["explosive"]
+  },
+  {
+    "model": "A/M-23",
+    "name": "EMS Mortar Sentry",
+    "class": "deployable",
+    "group": "defensive",
+    "armorPenLevel": "light",
+    "input": "durdr",
+    "tags": ["stun"]
+  },
+  {
+    "model": "A/MG-43",
+    "name": "Machine Gun Sentry",
+    "class": "deployable",
+    "group": "defensive",
+    "armorPenLevel": "medium",
+    "input": "durru",
+    "tags": ["explosive"]
+  },
+  {
+    "model": "A/MLS-4X",
+    "name": "Rocket Sentry",
+    "class": "deployable",
+    "group": "defensive",
+    "armorPenLevel": "antitank",
+    "input": "durrl",
+    "tags": ["explosive"]
+  },
+  {
+    "model": "AC-8",
+    "name": "Autocannon",
+    "class": "support weapon",
+    "group": "supply",
+    "armorPenLevel": "heavy",
+    "input": "dlduur",
+    "tags": ["backpack"]
+  },
+  {
+    "model": "APW-1",
+    "name": "Anti-Materiel Rifle",
+    "class": "support weapon",
+    "armorPenLevel": "heavy",
+    "group": "supply",
+    "input": "dlrud"
+  },
+  {
+    "model": "ARC-3",
+    "name": "Arc Thrower",
+    "class": "support weapon",
+    "group": "supply",
+    "armorPenLevel": "antitank",
+    "input": "drdull",
+    "tags": ["charge"]
+  },
+  {
+    "model": "AX-AR-23",
+    "name": "\"Guard Dog\"",
+    "class": "tac pack",
+    "group": "supply",
+    "armorPenLevel": "medium",
+    "input": "dulurd",
+    "tags": ["backpack"]
+  },
+  {
+    "model": "AX-LAS-5",
+    "name": "\"Guard Dog\" Rover",
+    "class": "tac pack",
+    "group": "supply",
+    "armorPenLevel": "light",
+    "input": "dulurr",
+    "tags": ["backpack", "incendiary", "laser"]
+  },
+  {
+    "model": "AX/TX-13",
+    "name": "\"Guard Dog\" Dog Breath",
+    "class": "tac pack",
+    "group": "supply",
+    "armorPenLevel": "none",
+    "input": "duluru",
+    "tags": ["backpack", "gas"]
+  },
+  {
+    "model": "B-1",
+    "name": "Supply Pack",
+    "class": "tac pack",
+    "group": "supply",
+    "armorPenLevel": "none",
+    "input": "dlduud",
+    "tags": ["team support"]
+  },
+  {
+    "model": "B-100",
+    "name": "Portable Hellbomb",
+    "class": "tac pack",
+    "group": "supply",
+    "armorPenLevel": "antitank",
+    "input": "druuu",
+    "tags": ["backpack", "demo", "explosive"]
+  },
+  {
+    "model": "E/AT-12",
+    "name": "Anti-Tank Emplacement",
+    "class": "deployable",
+    "group": "defensive",
+    "armorPenLevel": "antitank",
+    "input": "dulrrr",
+    "tags": ["demo", "explosive"]
+  },
+  {
+    "model": "E/GL-21",
+    "name": "Grenadier Battlement",
+    "class": "deployable",
+    "group": "defensive",
+    "armorPenLevel": "medium",
+    "input": "drdlr",
+    "tags": ["demo", "explosive"]
+  },
+  {
+    "model": "E/MG-101",
+    "name": "HMG Emplacement",
+    "class": "deployable",
+    "group": "defensive",
+    "armorPenLevel": "heavy",
+    "input": "dulrrl"
+  },
+  {
+    "model": "EAT-17",
+    "name": "Expendable Anti-Tank",
+    "class": "support weapon",
+    "group": "supply",
+    "armorPenLevel": "antitank",
+    "input": "ddlur",
+    "tags": ["disposable"]
+  },
+  {
+    "model": "EXO-45",
+    "name": "Patriot Exosuit",
+    "class": "vehicle",
+    "group": "supply",
+    "armorPenLevel": "antitank",
+    "input": "ldruldd",
+    "tags": ["demo", "explosive"]
+  },
+  {
+    "model": "EXO-49",
+    "name": "Emancipator Exosuit",
+    "class": "vehicle",
+    "group": "supply",
+    "armorPenLevel": "antitank",
+    "input": "ldruldu",
+    "tags": ["demo", "explosive"]
+  },
+  {
+    "model": "FAF-14",
+    "name": "Spear",
+    "class": "support weapon",
+    "group": "supply",
+    "armorPenLevel": "antitank",
+    "input": "ddudd",
+    "tags": ["backpack"]
+  },
+  {
+    "model": "FLAM-40",
+    "name": "Flamethrower",
+    "class": "support weapon",
+    "group": "supply",
+    "armorPenLevel": "heavy",
+    "input": "dludu",
+    "tags": ["incendiary"]
+  },
+  {
+    "model": "FX-12",
+    "name": "Shield Generator Relay",
+    "class": "deployable",
+    "group": "defensive",
+    "armorPenLevel": "none",
+    "input": "ddlrlr"
+  },
+  {
+    "model": "GL-21",
+    "name": "Grenade Launcher",
+    "class": "support weapon",
+    "group": "supply",
+    "armorPenLevel": "medium",
+    "input": "dluld",
+    "tags": ["explosive"]
+  },
+  {
+    "model": "GR-8",
+    "name": "Recoilless Rifle",
+    "class": "support weapon",
+    "group": "supply",
+    "armorPenLevel": "antitank",
+    "input": "dlrrl",
+    "tags": ["backpack", "demo"]
+  },
+  {
+    "model": "LAS-98",
+    "name": "Laser Cannon",
+    "class": "support weapon",
+    "group": "supply",
+    "armorPenLevel": "heavy",
+    "input": "dldul",
+    "tags": ["heat", "laser"]
+  },
+  {
+    "model": "LAS-99",
+    "name": "Quasar Cannon",
+    "class": "support weapon",
+    "group": "supply",
+    "armorPenLevel": "antitank",
+    "input": "ddulr",
+    "tags": ["charge", "demo"]
+  },
+  {
+    "model": "LIFT-850",
+    "name": "Jump Pack",
+    "armorPenLevel": "none",
+    "class": "tac pack",
+    "group": "supply",
+    "input": "duudu",
+    "tags": ["backpack"]
+  },
+  {
+    "model": "LIFT-860",
+    "name": "Hover Pack",
+    "armorPenLevel": "none",
+    "class": "tac pack",
+    "group": "supply",
+    "input": "duudlr",
+    "tags": ["backpack"]
+  },
+  {
+    "model": "M-102",
+    "name": "Fast Recon Vehicle",
+    "armorPenLevel": "heavy",
+    "class": "vehicle",
+    "group": "supply",
+    "input": "ldrdrdu",
+    "tags": ["team support"]
+  },
+  {
+    "model": "M-105",
+    "name": "Stalwart",
+    "armorPenLevel": "light",
+    "class": "support weapon",
+    "group": "supply",
+    "input": "dlduul",
+    "tags": ["mobile reload"]
+  },
+  {
+    "model": "MD-6",
+    "name": "Anti-Personnel Minefield",
+    "class": "deployable",
+    "group": "defensive",
+    "armorPenLevel": "medium",
+    "input": "dlur",
+    "tags": ["explosive"]
+  },
+  {
+    "model": "MD-8",
+    "name": "Gas Mines",
+    "class": "deployable",
+    "group": "defensive",
+    "armorPenLevel": "light",
+    "input": "dllr",
+    "tags": ["explosive", "gas"]
+  },
+  {
+    "model": "MD-17",
+    "name": "Anti-Tank Mines",
+    "class": "deployable",
+    "group": "defensive",
+    "armorPenLevel": "antitank",
+    "input": "dluu",
+    "tags": ["explosive"]
+  },
+  {
+    "model": "MD-I4",
+    "name": "Incendiary Mines",
+    "class": "deployable",
+    "group": "defensive",
+    "armorPenLevel": "medium",
+    "input": "dlld",
+    "tags": ["explosive", "incendiary"]
+  },
+  {
+    "model": "MG-43",
+    "name": "Machine Gun",
+    "armorPenLevel": "medium",
+    "class": "support weapon",
+    "group": "supply",
+    "input": "dldur"
+  },
+  {
+    "model": "MG-206",
+    "name": "Heavy Machine Gun",
+    "class": "support weapon",
+    "group": "supply",
+    "armorPenLevel": "heavy",
+    "input": "dludd"
+  },
+  {
+    "model": "MLS-4X",
+    "name": "Commando",
+    "class": "support weapon",
+    "group": "supply",
+    "armorPenLevel": "antitank",
+    "input": "dludr",
+    "tags": ["disposable"]
+  },
+  {
+    "model": "RL-77",
+    "name": "Airburst Rocket Launcher",
+    "class": "support weapon",
+    "group": "supply",
+    "armorPenLevel": "medium",
+    "input": "duulr",
+    "tags": ["backpack"]
+  },
+  {
+    "model": "RS-422",
+    "name": "Railgun",
+    "class": "support weapon",
+    "group": "supply",
+    "armorPenLevel": "antitank",
+    "input": "drdulr",
+    "tags": ["charge"]
+  },
+  {
+    "model": "SH-20",
+    "name": "Ballistic Shield Backpack",
+    "class": "support weapon",
+    "group": "supply",
+    "armorPenLevel": "none",
+    "input": "dlddul",
+    "tags": ["one-handed"]
+  },
+  {
+    "model": "SH-32",
+    "name": "Shield Generator Pack",
+    "class": "tac pack",
+    "group": "supply",
+    "armorPenLevel": "none",
+    "input": "dulrlr",
+    "tags": ["backpack"]
+  },
+  {
+    "model": "SH-51",
+    "name": "Directional Shield",
+    "class": "tac pack",
+    "group": "supply",
+    "armorPenLevel": "none",
+    "input": "dulruu",
+    "tags": ["one-handed"]
+  },
+  {
+    "model": "StA-X3",
+    "name": "W.A.S.P. Launcher",
+    "class": "support weapon",
+    "group": "supply",
+    "armorPenLevel": "antitank",
+    "input": "ddudr",
+    "tags": ["backpack"]
+  },
+  {
+    "model": "TX-41",
+    "name": "Sterilizer",
+    "class": "support weapon",
+    "group": "supply",
+    "armorPenLevel": "antitank",
+    "input": "dludl",
+    "tags": ["gas"]
+  }
 ]
