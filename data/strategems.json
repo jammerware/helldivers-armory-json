@@ -1,0 +1,48 @@
+[
+    {
+        "model": "APW-1",
+        "name": "Anti-Materiel Rifle",
+        "class": "support weapon",
+        "armorPenLevel": "heavy",
+        "group": "supply",
+        "input": "dlrud"
+    },
+    {
+        "model": "EAT-17",
+        "name": "Expendable Anti-Tank",
+        "class": "support weapon",
+        "group": "supply",
+        "armorPenLevel": "antitank",
+        "input": "ddlur"
+    },
+    {
+        "model": "GR-8",
+        "name": "Recoilless Rifle",
+        "class": "support weapon",
+        "group": "supply",
+        "armorPenLevel": "antitank",
+        "input": "dlrrl",
+        "tags": [
+            "backpack"
+        ]
+    },
+    {
+        "model": "M-105",
+        "name": "Stalwart",
+        "armorPenLevel": "light",
+        "class": "support weapon",
+        "group": "supply",
+        "input": "dlduul",
+        "tags": [
+            "mobile reload"
+        ]
+    },
+    {
+        "model": "MG-43",
+        "name": "Machine Gun",
+        "armorPenLevel": "medium",
+        "class": "support weapon",
+        "group": "supply",
+        "input": "dldur"
+    },
+]

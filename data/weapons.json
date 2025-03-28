@@ -1,0 +1,468 @@
+[
+  {
+    "model": "AR-23",
+    "name": "Liberator",
+    "armorPenLevel": "light",
+    "class": "ar",
+    "slot": "primary"
+  },
+  {
+    "model": "AR-23A",
+    "name": "Liberator Carbine",
+    "armorPenLevel": "light",
+    "class": "ar",
+    "slot": "primary"
+  },
+  {
+    "model": "AR-23C",
+    "name": "Liberator Concussive",
+    "armorPenLevel": "light",
+    "class": "ar",
+    "slot": "primary",
+    "tags": ["stun"]
+  },
+  {
+    "model": "AR-23P",
+    "name": "Liberator Penetrator",
+    "armorPenLevel": "medium",
+    "class": "ar",
+    "slot": "primary"
+  },
+  {
+    "model": "AR-61",
+    "name": "Tenderizer",
+    "armorPenLevel": "light",
+    "class": "ar",
+    "slot": "primary"
+  },
+  {
+    "model": "ARC-12",
+    "name": "Blitzer",
+    "armorPenLevel": "medium",
+    "class": "shotgun",
+    "slot": "primary",
+    "tags": ["ammoless", "arc"]
+  },
+  {
+    "model": "BR-14",
+    "name": "Adjudicator",
+    "armorPenLevel": "medium",
+    "class": "ar",
+    "slot": "primary"
+  },
+  {
+    "model": "CB-9",
+    "name": "Exploding Crossbow",
+    "armorPenLevel": "medium",
+    "class": "special",
+    "slot": "primary",
+    "tags": ["demo", "explosive", "one-handed"]
+  },
+  {
+    "model": "FLAM-66",
+    "name": "Torcher",
+    "armorPenLevel": "heavy",
+    "class": "special",
+    "slot": "primary",
+    "tags": ["incendiary"]
+  },
+  {
+    "model": "JAR-5",
+    "name": "Dominator",
+    "armorPenLevel": "medium",
+    "class": "special",
+    "slot": "primary"
+  },
+  {
+    "model": "LAS-5",
+    "name": "Scythe",
+    "armorPenLevel": "light",
+    "class": "ar",
+    "slot": "primary",
+    "tags": ["heat", "laser"]
+  },
+  {
+    "model": "LAS-16",
+    "name": "Sickle",
+    "armorPenLevel": "light",
+    "class": "ar",
+    "slot": "primary",
+    "tags": ["heat"]
+  },
+  {
+    "model": "LAS-17",
+    "name": "Double-Edge Sickle",
+    "armorPenLevel": "heavy",
+    "class": "ar",
+    "slot": "primary",
+    "tags": ["heat"]
+  },
+  {
+    "model": "PLAS-1",
+    "name": "Scorcher",
+    "armorPenLevel": "light",
+    "class": "ar",
+    "slot": "primary",
+    "tags": ["explosive"]
+  },
+  {
+    "model": "PLAS-101",
+    "name": "Purifier",
+    "armorPenLevel": "medium",
+    "class": "ar",
+    "slot": "primary",
+    "tags": ["charge", "explosive"]
+  },
+  {
+    "model": "PLAS-39",
+    "name": "Accelerator Rifle",
+    "armorPenLevel": "medium",
+    "class": "sniper",
+    "slot": "primary",
+    "tags": ["explosive", "overpenetrate"]
+  },
+  {
+    "model": "R-2124",
+    "name": "Constitution",
+    "armorPenLevel": "medium",
+    "class": "marksman",
+    "slot": "primary"
+  },
+  {
+    "model": "R-6",
+    "name": "Deadeye",
+    "armorPenLevel": "medium",
+    "class": "marksman",
+    "slot": "primary",
+    "tags": ["enhanced melee"]
+  },
+  {
+    "model": "R-36",
+    "name": "Eruptor",
+    "armorPenLevel": "heavy",
+    "class": "special",
+    "slot": "primary",
+    "tags": ["demo", "explosive"]
+  },
+  {
+    "model": "R-63",
+    "name": "Diligence",
+    "armorPenLevel": "light",
+    "class": "marksman",
+    "slot": "primary"
+  },
+  {
+    "model": "R-63CS",
+    "name": "Diligence Counter Sniper",
+    "armorPenLevel": "medium",
+    "class": "marksman",
+    "slot": "primary"
+  },
+  {
+    "model": "MP-98",
+    "name": "Knight",
+    "armorPenLevel": "light",
+    "class": "smg",
+    "slot": "primary",
+    "tags": ["one-handed"]
+  },
+  {
+    "model": "SG-8",
+    "name": "Punisher",
+    "armorPenLevel": "light",
+    "class": "shotgun",
+    "slot": "primary"
+  },
+  {
+    "model": "SG-8P",
+    "name": "Punisher Plasma",
+    "armorPenLevel": "medium",
+    "class": "shotgun",
+    "slot": "primary",
+    "tags": ["explosive"]
+  },
+  {
+    "model": "SG-8S",
+    "name": "Slugger",
+    "armorPenLevel": "medium",
+    "class": "shotgun",
+    "slot": "primary"
+  },
+  {
+    "model": "SG-20",
+    "name": "Halt",
+    "armorPenLevel": "medium",
+    "class": "shotgun",
+    "slot": "primary",
+    "tags": ["stun"]
+  },
+  {
+    "model": "SG-225",
+    "name": "Breaker",
+    "armorPenLevel": "light",
+    "class": "shotgun",
+    "slot": "primary"
+  },
+  {
+    "model": "SG-225SP",
+    "name": "Breaker Spray & Pray",
+    "armorPenLevel": "light",
+    "class": "shotgun",
+    "slot": "primary"
+  },
+  {
+    "model": "SG-225IE",
+    "name": "Breaker Incendiary",
+    "armorPenLevel": "light",
+    "class": "shotgun",
+    "slot": "primary",
+    "tags": ["incendiary"]
+  },
+  {
+    "model": "SG-451",
+    "name": "Cookout",
+    "armorPenLevel": "light",
+    "class": "shotgun",
+    "slot": "primary"
+  },
+  {
+    "model": "SMG-32",
+    "name": "Reprimand",
+    "armorPenLevel": "medium",
+    "class": "smg",
+    "slot": "primary"
+  },
+  {
+    "model": "SMG-37",
+    "name": "Defender",
+    "armorPenLevel": "light",
+    "class": "smg",
+    "slot": "primary"
+  },
+  {
+    "model": "SMG-72",
+    "name": "Pummeler",
+    "armorPenLevel": "light",
+    "class": "smg",
+    "slot": "primary",
+    "tags": ["stun"]
+  },
+  {
+    "model": "StA-11",
+    "name": "SMG",
+    "armorPenLevel": "light",
+    "class": "smg",
+    "slot": "primary",
+    "tags": ["one-handed"]
+  },
+  {
+    "model": "StA-52",
+    "name": "Assault Rifle",
+    "armorPenLevel": "light",
+    "class": "ar",
+    "slot": "primary"
+  },
+  {
+    "model": "CQC-5",
+    "name": "Combat Hatchet",
+    "armorPenLevel": "medium",
+    "class": "melee",
+    "slot": "secondary",
+    "tags": ["one-handed"]
+  },
+  {
+    "model": "CQC-19",
+    "name": "Stun Lane",
+    "armorPenLevel": "medium",
+    "class": "melee",
+    "slot": "secondary",
+    "tags": ["one-handed", "stun"]
+  },
+  {
+    "model": "CQC-30",
+    "name": "Stun Baton",
+    "armorPenLevel": "medium",
+    "class": "melee",
+    "slot": "secondary",
+    "tags": ["one-handed", "stun"]
+  },
+  {
+    "model": "GP-31",
+    "name": "Grenade Pistol",
+    "armorPenLevel": "medium",
+    "class": "pistol",
+    "slot": "secondary",
+    "tags": ["demo", "explosive", "one-handed"]
+  },
+  {
+    "model": "GP-31",
+    "name": "Ultimatum",
+    "armorPenLevel": "antitank",
+    "class": "special",
+    "slot": "secondary",
+    "tags": ["demo", "explosive", "one-handed"]
+  },
+  {
+    "model": "LAS-7",
+    "name": "Dagger",
+    "armorPenLevel": "light",
+    "class": "pistol",
+    "slot": "secondary",
+    "tags": ["heat", "laser", "one-handed"]
+  },
+  {
+    "model": "LAS-58",
+    "name": "Talon",
+    "armorPenLevel": "medium",
+    "class": "pistol",
+    "slot": "secondary",
+    "tags": ["heat", "laser", "one-handed"]
+  },
+  {
+    "model": "P-2",
+    "name": "Peacemaker",
+    "armorPenLevel": "light",
+    "class": "pistol",
+    "slot": "secondary",
+    "tags": ["one-handed"]
+  },
+  {
+    "model": "P-4",
+    "name": "Senator",
+    "armorPenLevel": "heavy",
+    "class": "pistol",
+    "slot": "secondary",
+    "tags": ["one-handed", "speedloader"]
+  },
+  {
+    "model": "P-11",
+    "name": "Stim Pistol",
+    "armorPenLevel": "none",
+    "class": "pistol",
+    "slot": "secondary",
+    "tags": ["one-handed", "stim"]
+  },
+  {
+    "model": "P-19",
+    "name": "Redeemer",
+    "armorPenLevel": "light",
+    "class": "pistol",
+    "slot": "secondary",
+    "tags": ["one-handed"]
+  },
+  {
+    "model": "P-72",
+    "name": "Crisper",
+    "armorPenLevel": "heavy",
+    "class": "pistol",
+    "slot": "secondary",
+    "tags": ["incendiary", "one-handed"]
+  },
+  {
+    "model": "P-113",
+    "name": "Verdict",
+    "armorPenLevel": "medium",
+    "class": "pistol",
+    "slot": "secondary",
+    "tags": ["one-handed"]
+  },
+  {
+    "model": "PLAS-15",
+    "name": "Loyalist",
+    "armorPenLevel": "medium",
+    "class": "pistol",
+    "slot": "secondary",
+    "tags": ["charge", "explosive", "one-handed"]
+  },
+  {
+    "model": "SG-22",
+    "name": "Bushwhacker",
+    "armorPenLevel": "light",
+    "class": "shotgun",
+    "slot": "secondary"
+  },
+  {
+    "model": "G-3",
+    "name": "Smoke",
+    "armorPenLevel": "none",
+    "class": "grenade",
+    "slot": "throwable",
+    "tags": ["smoke"]
+  },
+  {
+    "model": "G-4",
+    "name": "Gas",
+    "armorPenLevel": "antitank",
+    "class": "grenade",
+    "slot": "throwable",
+    "tags": ["gas"]
+  },
+  {
+    "model": "G-6",
+    "name": "Frag",
+    "armorPenLevel": "medium",
+    "class": "grenade",
+    "slot": "throwable"
+  },
+  {
+    "model": "G-10",
+    "name": "Incendiary",
+    "armorPenLevel": "medium",
+    "class": "grenade",
+    "slot": "throwable",
+    "tags": ["incendiary"]
+  },
+  {
+    "model": "G-12",
+    "name": "High Explosive",
+    "armorPenLevel": "heavy",
+    "class": "grenade",
+    "slot": "throwable"
+  },
+  {
+    "model": "G-13",
+    "name": "Incendiary Impact",
+    "armorPenLevel": "medium",
+    "class": "grenade",
+    "slot": "throwable",
+    "tags": ["incendiary"]
+  },
+  {
+    "model": "G-16",
+    "name": "Impact",
+    "armorPenLevel": "heavy",
+    "class": "grenade",
+    "slot": "throwable"
+  },
+  {
+    "model": "G-23",
+    "name": "Stun",
+    "armorPenLevel": "antitank",
+    "class": "grenade",
+    "slot": "throwable",
+    "tags": ["stun"]
+  },
+  {
+    "model": "G-50",
+    "name": "Seeker",
+    "armorPenLevel": "heavy",
+    "class": "grenade",
+    "slot": "throwable"
+  },
+  {
+    "model": "G-123",
+    "name": "Thermite",
+    "armorPenLevel": "antitank",
+    "class": "grenade",
+    "slot": "throwable",
+    "tags": ["incendiary", "sticky"]
+  },
+  {
+    "model": "K-2",
+    "name": "Throwing Knife",
+    "armorPenLevel": "medium",
+    "class": "throwing",
+    "slot": "throwable",
+    "tags": ["silent"]
+  }
+]

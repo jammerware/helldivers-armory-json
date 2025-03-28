@@ -1,0 +1,48 @@
+{
+  "$id": "http://helldivers-armory.com/schemas/weapons.json",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Weapon",
+  "description": "A Helldivers 2 weapon",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": ["model", "name", "armorPenLevel", "class", "slot"],
+    "properties": {
+      "model": { "type": "string" },
+      "name": { "type": "string" },
+      "armorPenLevel": {
+        "type": "string",
+        "enum": ["none", "light", "medium", "heavy", "antitank"]
+      },
+      "class": {
+        "description": "The class of the weapon (e.g. marksman rifle, SMG)",
+        "type": "string",
+        "enum": [
+          "ar",
+          "grenade",
+          "marksman",
+          "melee",
+          "pistol",
+          "shotgun",
+          "special",
+          "sniper",
+          "smg",
+          "throwing"
+        ]
+      },
+      "slot": {
+        "description": "Equippable slot",
+        "type": "string",
+        "enum": ["primary", "secondary", "throwable"]
+      },
+      "tags": {
+        "description": "Special properties of the weapon",
+        "type": "array",
+        "items": {
+          "type": "string"
+        },
+        "uniqueItems": true
+      }
+    }
+  }
+}

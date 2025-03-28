@@ -1,0 +1,12 @@
+{
+  "json.schemas": [
+    {
+      "fileMatch": ["/data/weapons.json"],
+      "url": "./weapons-schema.json"
+    },
+    {
+      "fileMatch": ["/data/strategems.json"],
+      "url": "./strategems-schema.json"
+    }
+  ]
+}
