@@ -1,0 +1,18 @@
+{
+    "$id": "http://helldivers-armory.com/schemas/schema.json",
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "title": "Helldivers 2 Armor Passive",
+    "description": "A Helldivers 2 armor passive",
+    "type": "array",
+    "items": {
+        "type": "object",
+        "required": [
+            "name"
+        ],
+        "properties": {
+            "name": {
+                "type": "string"
+            }
+        }
+    }
+}

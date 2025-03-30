@@ -1,12 +1,16 @@
 {
   "json.schemas": [
     {
-      "fileMatch": ["/data/weapons.json"],
-      "url": "./weapons-schema.json"
-    },
+      "fileMatch": ["/data/armor-passives.json"],
+      "url": "./armor-passives-schema.json"
+    }
     {
       "fileMatch": ["/data/strategems.json"],
       "url": "./strategems-schema.json"
+    },
+    {
+      "fileMatch": ["/data/weapons.json"],
+      "url": "./weapons-schema.json"
     }
   ]
 }
