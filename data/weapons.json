@@ -19,7 +19,9 @@
     "armorPenLevel": "light",
     "class": "ar",
     "slot": "primary",
-    "tags": ["stun"]
+    "tags": [
+      "stun"
+    ]
   },
   {
     "model": "AR-23P",
@@ -41,7 +43,10 @@
     "armorPenLevel": "medium",
     "class": "shotgun",
     "slot": "primary",
-    "tags": ["ammoless", "arc"]
+    "tags": [
+      "ammoless",
+      "arc"
+    ]
   },
   {
     "model": "BR-14",
@@ -56,7 +61,11 @@
     "armorPenLevel": "medium",
     "class": "special",
     "slot": "primary",
-    "tags": ["demo", "explosive", "one-handed"]
+    "tags": [
+      "demo",
+      "explosive",
+      "one-handed"
+    ]
   },
   {
     "model": "FLAM-66",
@@ -64,7 +73,9 @@
     "armorPenLevel": "heavy",
     "class": "special",
     "slot": "primary",
-    "tags": ["incendiary"]
+    "tags": [
+      "incendiary"
+    ]
   },
   {
     "model": "JAR-5",
@@ -79,7 +90,10 @@
     "armorPenLevel": "light",
     "class": "ar",
     "slot": "primary",
-    "tags": ["heat", "laser"]
+    "tags": [
+      "heat",
+      "laser"
+    ]
   },
   {
     "model": "LAS-16",
@@ -87,7 +101,9 @@
     "armorPenLevel": "light",
     "class": "ar",
     "slot": "primary",
-    "tags": ["heat"]
+    "tags": [
+      "heat"
+    ]
   },
   {
     "model": "LAS-17",
@@ -95,7 +111,9 @@
     "armorPenLevel": "heavy",
     "class": "ar",
     "slot": "primary",
-    "tags": ["heat"]
+    "tags": [
+      "heat"
+    ]
   },
   {
     "model": "PLAS-1",
@@ -103,7 +121,9 @@
     "armorPenLevel": "light",
     "class": "ar",
     "slot": "primary",
-    "tags": ["explosive"]
+    "tags": [
+      "explosive"
+    ]
   },
   {
     "model": "PLAS-101",
@@ -111,7 +131,10 @@
     "armorPenLevel": "medium",
     "class": "ar",
     "slot": "primary",
-    "tags": ["charge", "explosive"]
+    "tags": [
+      "charge",
+      "explosive"
+    ]
   },
   {
     "model": "PLAS-39",
@@ -119,7 +142,10 @@
     "armorPenLevel": "medium",
     "class": "sniper",
     "slot": "primary",
-    "tags": ["explosive", "overpenetrate"]
+    "tags": [
+      "explosive",
+      "overpenetrate"
+    ]
   },
   {
     "model": "R-2124",
@@ -134,7 +160,9 @@
     "armorPenLevel": "medium",
     "class": "marksman",
     "slot": "primary",
-    "tags": ["enhanced melee"]
+    "tags": [
+      "enhanced melee"
+    ]
   },
   {
     "model": "R-36",
@@ -142,7 +170,10 @@
     "armorPenLevel": "heavy",
     "class": "special",
     "slot": "primary",
-    "tags": ["demo", "explosive"]
+    "tags": [
+      "demo",
+      "explosive"
+    ]
   },
   {
     "model": "R-63",
@@ -164,7 +195,9 @@
     "armorPenLevel": "light",
     "class": "smg",
     "slot": "primary",
-    "tags": ["one-handed"]
+    "tags": [
+      "one-handed"
+    ]
   },
   {
     "model": "SG-8",
@@ -179,7 +212,9 @@
     "armorPenLevel": "medium",
     "class": "shotgun",
     "slot": "primary",
-    "tags": ["explosive"]
+    "tags": [
+      "explosive"
+    ]
   },
   {
     "model": "SG-8S",
@@ -194,7 +229,9 @@
     "armorPenLevel": "medium",
     "class": "shotgun",
     "slot": "primary",
-    "tags": ["stun"]
+    "tags": [
+      "stun"
+    ]
   },
   {
     "model": "SG-225",
@@ -216,7 +253,9 @@
     "armorPenLevel": "light",
     "class": "shotgun",
     "slot": "primary",
-    "tags": ["incendiary"]
+    "tags": [
+      "incendiary"
+    ]
   },
   {
     "model": "SG-451",
@@ -245,7 +284,9 @@
     "armorPenLevel": "light",
     "class": "smg",
     "slot": "primary",
-    "tags": ["stun"]
+    "tags": [
+      "stun"
+    ]
   },
   {
     "model": "StA-11",
@@ -253,7 +294,9 @@
     "armorPenLevel": "light",
     "class": "smg",
     "slot": "primary",
-    "tags": ["one-handed"]
+    "tags": [
+      "one-handed"
+    ]
   },
   {
     "model": "StA-52",
@@ -268,7 +311,9 @@
     "armorPenLevel": "medium",
     "class": "melee",
     "slot": "secondary",
-    "tags": ["one-handed"]
+    "tags": [
+      "one-handed"
+    ]
   },
   {
     "model": "CQC-19",
@@ -276,7 +321,10 @@
     "armorPenLevel": "medium",
     "class": "melee",
     "slot": "secondary",
-    "tags": ["one-handed", "stun"]
+    "tags": [
+      "one-handed",
+      "stun"
+    ]
   },
   {
     "model": "CQC-30",
@@ -284,7 +332,10 @@
     "armorPenLevel": "medium",
     "class": "melee",
     "slot": "secondary",
-    "tags": ["one-handed", "stun"]
+    "tags": [
+      "one-handed",
+      "stun"
+    ]
   },
   {
     "model": "GP-31",
@@ -292,7 +343,11 @@
     "armorPenLevel": "medium",
     "class": "pistol",
     "slot": "secondary",
-    "tags": ["demo", "explosive", "one-handed"]
+    "tags": [
+      "demo",
+      "explosive",
+      "one-handed"
+    ]
   },
   {
     "model": "GP-31",
@@ -300,7 +355,11 @@
     "armorPenLevel": "antitank",
     "class": "special",
     "slot": "secondary",
-    "tags": ["demo", "explosive", "one-handed"]
+    "tags": [
+      "demo",
+      "explosive",
+      "one-handed"
+    ]
   },
   {
     "model": "LAS-7",
@@ -308,7 +367,11 @@
     "armorPenLevel": "light",
     "class": "pistol",
     "slot": "secondary",
-    "tags": ["heat", "laser", "one-handed"]
+    "tags": [
+      "heat",
+      "laser",
+      "one-handed"
+    ]
   },
   {
     "model": "LAS-58",
@@ -316,7 +379,11 @@
     "armorPenLevel": "medium",
     "class": "pistol",
     "slot": "secondary",
-    "tags": ["heat", "laser", "one-handed"]
+    "tags": [
+      "heat",
+      "laser",
+      "one-handed"
+    ]
   },
   {
     "model": "P-2",
@@ -324,7 +391,9 @@
     "armorPenLevel": "light",
     "class": "pistol",
     "slot": "secondary",
-    "tags": ["one-handed"]
+    "tags": [
+      "one-handed"
+    ]
   },
   {
     "model": "P-4",
@@ -332,7 +401,10 @@
     "armorPenLevel": "heavy",
     "class": "pistol",
     "slot": "secondary",
-    "tags": ["one-handed", "speedloader"]
+    "tags": [
+      "one-handed",
+      "speedloader"
+    ]
   },
   {
     "model": "P-11",
@@ -340,7 +412,10 @@
     "armorPenLevel": "none",
     "class": "pistol",
     "slot": "secondary",
-    "tags": ["one-handed", "stim"]
+    "tags": [
+      "one-handed",
+      "stim"
+    ]
   },
   {
     "model": "P-19",
@@ -348,7 +423,9 @@
     "armorPenLevel": "light",
     "class": "pistol",
     "slot": "secondary",
-    "tags": ["one-handed"]
+    "tags": [
+      "one-handed"
+    ]
   },
   {
     "model": "P-72",
@@ -356,7 +433,10 @@
     "armorPenLevel": "heavy",
     "class": "pistol",
     "slot": "secondary",
-    "tags": ["incendiary", "one-handed"]
+    "tags": [
+      "incendiary",
+      "one-handed"
+    ]
   },
   {
     "model": "P-113",
@@ -364,7 +444,9 @@
     "armorPenLevel": "medium",
     "class": "pistol",
     "slot": "secondary",
-    "tags": ["one-handed"]
+    "tags": [
+      "one-handed"
+    ]
   },
   {
     "model": "PLAS-15",
@@ -372,7 +454,11 @@
     "armorPenLevel": "medium",
     "class": "pistol",
     "slot": "secondary",
-    "tags": ["charge", "explosive", "one-handed"]
+    "tags": [
+      "charge",
+      "explosive",
+      "one-handed"
+    ]
   },
   {
     "model": "SG-22",
@@ -387,7 +473,9 @@
     "armorPenLevel": "none",
     "class": "grenade",
     "slot": "throwable",
-    "tags": ["smoke"]
+    "tags": [
+      "smoke"
+    ]
   },
   {
     "model": "G-4",
@@ -395,14 +483,20 @@
     "armorPenLevel": "antitank",
     "class": "grenade",
     "slot": "throwable",
-    "tags": ["gas"]
+    "tags": [
+      "demo",
+      "gas"
+    ]
   },
   {
     "model": "G-6",
     "name": "Frag",
     "armorPenLevel": "medium",
     "class": "grenade",
-    "slot": "throwable"
+    "slot": "throwable",
+    "tags": [
+      "demo"
+    ]
   },
   {
     "model": "G-10",
@@ -410,14 +504,20 @@
     "armorPenLevel": "medium",
     "class": "grenade",
     "slot": "throwable",
-    "tags": ["incendiary"]
+    "tags": [
+      "demo",
+      "incendiary"
+    ]
   },
   {
     "model": "G-12",
     "name": "High Explosive",
     "armorPenLevel": "heavy",
     "class": "grenade",
-    "slot": "throwable"
+    "slot": "throwable",
+    "tags": [
+      "demo"
+    ]
   },
   {
     "model": "G-13",
@@ -425,14 +525,20 @@
     "armorPenLevel": "medium",
     "class": "grenade",
     "slot": "throwable",
-    "tags": ["incendiary"]
+    "tags": [
+      "demo",
+      "incendiary"
+    ]
   },
   {
     "model": "G-16",
     "name": "Impact",
     "armorPenLevel": "heavy",
     "class": "grenade",
-    "slot": "throwable"
+    "slot": "throwable",
+    "tags": [
+      "demo"
+    ]
   },
   {
     "model": "G-23",
@@ -440,14 +546,19 @@
     "armorPenLevel": "antitank",
     "class": "grenade",
     "slot": "throwable",
-    "tags": ["stun"]
+    "tags": [
+      "stun"
+    ]
   },
   {
     "model": "G-50",
     "name": "Seeker",
     "armorPenLevel": "heavy",
     "class": "grenade",
-    "slot": "throwable"
+    "slot": "throwable",
+    "tags": [
+      "demo"
+    ]
   },
   {
     "model": "G-123",
@@ -455,7 +566,10 @@
     "armorPenLevel": "antitank",
     "class": "grenade",
     "slot": "throwable",
-    "tags": ["incendiary", "sticky"]
+    "tags": [
+      "incendiary",
+      "sticky"
+    ]
   },
   {
     "model": "K-2",
@@ -463,6 +577,19 @@
     "armorPenLevel": "medium",
     "class": "throwing",
     "slot": "throwable",
-    "tags": ["silent"]
+    "tags": [
+      "silent"
+    ]
+  },
+  {
+    "model": "TED-63",
+    "name": "Dynamite",
+    "armorPenLevel": "medium",
+    "class": "grenade",
+    "slot": "throwable",
+    "tags": [
+      "demo",
+      "explosive"
+    ]
   }
 ]
