@@ -5,8 +5,8 @@
       "url": "./armor-passives-schema.json"
     }
     {
-      "fileMatch": ["/data/strategems.json"],
-      "url": "./strategems-schema.json"
+      "fileMatch": ["/data/stratagems.json"],
+      "url": "./stratagems-schema.json"
     },
     {
       "fileMatch": ["/data/weapons.json"],

@@ -1,12 +1,17 @@
 {
-  "$id": "http://helldivers-armory.com/schemas/schema.json",
+  "$id": "http://helldivers-armory.com/schemas/stratagems.json",
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "title": "Strategem",
-  "description": "A Helldivers 2 strategem",
+  "title": "Stratagem",
+  "description": "A Helldivers 2 stratagem",
   "type": "array",
   "items": {
     "type": "object",
-    "required": ["model", "name", "armorPenLevel", "class"],
+    "required": [
+      "model",
+      "name",
+      "armorPenLevel",
+      "class"
+    ],
     "properties": {
       "model": {
         "type": "string"
@@ -16,14 +21,24 @@
       },
       "group": {
         "type": "string",
-        "enum": ["defensive", "offensive", "supply"]
+        "enum": [
+          "defensive",
+          "offensive",
+          "supply"
+        ]
       },
       "armorPenLevel": {
         "type": "string",
-        "enum": ["none", "light", "medium", "heavy", "antitank"]
+        "enum": [
+          "none",
+          "light",
+          "medium",
+          "heavy",
+          "antitank"
+        ]
       },
       "class": {
-        "description": "The class of the stratem (e.g. support weapon, turret, etc.)",
+        "description": "The class of the stratagem (e.g. support weapon, turret, etc.)",
         "type": "string",
         "enum": [
           "deployable",
@@ -35,11 +50,11 @@
         ]
       },
       "input": {
-        "description": "The input code used to call down the strategem",
+        "description": "The input code used to call down the stratagem",
         "type": "string"
       },
       "tags": {
-        "description": "Special properties of the strategem",
+        "description": "Special properties of the stratagem",
         "type": "array",
         "items": {
           "type": "string"
