@@ -344,7 +344,7 @@
     "group": "supply",
     "armorPenLevel": "antitank",
     "input": "ddlur",
-    "tags": ["disposable"]
+    "tags": ["demo", "disposable"]
   },
   {
     "model": "EXO-45",
